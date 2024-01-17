@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Work Sans;
+  color: #fff;
+  background-color: #2b2b2b;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+button {
+  color: #fff;
+  cursor: pointer;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 30px 0 30px;
+  max-width: 1440px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  list-style-type: none;
+}
+
+.header-link {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn-sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  padding: 0px 30px;
+  gap: 12px;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+  border-radius: 20px;
+  background-color: #a259ff;
+  color: #fff;
+  cursor: pointer;
+  transition: 2s;
+}
+
+.btn-sign-up:hover {
+  background-color: rgb(255, 193, 78);
+}
+
+.logo {
+  width: 100px;
+}
+
+/* main */
+
+main {
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  padding-top: 80px;
+}
+
+/* section-hero */
+
+.section-hero {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  max-width: 1440px;
+}
+
+.hero-about {
+  width: 510px;
+}
+
+.hero-about h1 {
+  margin-bottom: 20px;
+
+  font-size: 67px;
+  font-weight: 600;
+  line-height: 110%;
+  text-transform: capitalize;
+}
+
+.hero-about p {
+  margin-bottom: 30px;
+
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 160%;
+  text-transform: capitalize;
+}
+
+.hero-about button {
+  display: flex;
+  height: 60px;
+  padding: 0px 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 20px;
+  background: #a259ff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%; /* 22.4px */
+  cursor: pointer;
+}
+
+.adittional-info {
+  display: flex;
+  gap: 30px;
+  color: white;
+}
+
+.card-info-value {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 140%;
+  text-transform: capitalize;
+}
+
+.card-info-title {
+  font-size: 23.99px;
+  font-weight: 400;
+  line-height: 160%;
+  text-transform: capitalize;
+}
+
+.hero-img-box {
+  flex: 1;
+}
+
+.hero-img-box img {
+  width: 100%;
+  transition: 1s;
+}
+
+.hero-img-box img:hover {
+  border-radius: 50%;
+
+}
+
+.btn-sign-up {
+  display: flex;
+  height: 60px;
+  padding: 0px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 20px;
+  background: #a259ff;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%; /* 22.4px */
+  border: none;
+  cursor: pointer;
+}
+
+/* section-nft-cards */
+
+.section-nft-cards {
+  padding-top: 80px;
+  transition: 2s;
+}
+
+.section-nft-cards header h3 {
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 120%; /* 45.6px */
+  text-transform: capitalize;
+}
+
+.btn-artist-page {
+  height: 60px;
+  padding: 0px 50px;
+  border-radius: 20px;
+  border: 2px solid #a259ff;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+  background-color: transparent;
+}
+
+.btn-artist-page a {
+  height: 60px;
+  padding: 0px 50px;
+  border-radius: 20px;
+  border: 2px solid #a259ff;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+  background-color: transparent;
+}
+
+.btn-artist-page:hover {
+  font-size: 25px;
+  border: 2px solid rgb(255, 0, 234);
+}
+
+.nft-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.nft-card {
+  width: 330px;
+}
+
+.nft-card img {
+  display: flex;
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+.nft-info {
+  padding: 20px 30px 25px 30px;
+  border-radius: 0 0 20px 20px;
+  background-color: #3b3b3b;
+}
+
+.nft-info h5 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 140%; /* 30.8px */
+  text-transform: capitalize;
+  transition: 1s;
+}
+
+.nft-info h5:hover{
+  color:#16a6b1;
+  scale: 1.2;
+}
+
+.btn-get-started:hover{
+  background-color: #16a6b1;
+  transform: translateX(40px);
+
+}
+
+.btn-get-started{
+  transition: 2s;
+}
+
+.section-nft-cards:hover{
+  background-color: #a259ff;
+}
